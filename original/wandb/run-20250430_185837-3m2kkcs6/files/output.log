@@ -1,0 +1,25 @@
+/home/ines/anaconda3/envs/unixgen/lib/python3.9/site-packages/pytorch_lightning/trainer/configuration_validator.py:99: UserWarning: you passed in a val_dataloader but have no validation_step. Skipping val loop
+  rank_zero_warn(f"you passed in a {loader_name} but have no {step_name}. Skipping {stage} loop")
+Global seed set to 42
+initializing ddp: GLOBAL_RANK: 0, MEMBER: 1/1
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All DDP processes registered. Starting ddp with 1 processes
+----------------------------------------------------------------------------------------------------
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+  | Name                  | Type                  | Params
+----------------------------------------------------------------
+0 | transformerLM_unified | TransformerLM_unified | 125 M
+----------------------------------------------------------------
+125 M     Trainable params
+0         Non-trainable params
+125 M     Total params
+503.487   Total estimated model params size (MB)
+Traceback (most recent call last):
+  File "/home/ines/Documents/iNES-hackathon/UniXGen/unified_main.py", line 266, in <module>
+    trainer.fit(model, datamodule=dm)
+  File "/home/ines/anaconda3/envs/unixgen/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 553, in fit
+    self._run(model)
+  File "/home/ines/anaconda3/envs/unixgen/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 918, in _run
+    self._dispatch()
+Epoch 0:   0%|     | 0/204102 [00:00<00:27, 7319.90it/s]

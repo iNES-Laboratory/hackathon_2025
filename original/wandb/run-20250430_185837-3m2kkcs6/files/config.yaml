@@ -1,0 +1,269 @@
+wandb_version: 1
+
+FAVOR:
+  desc: null
+  value: true
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.5
+    code_path: code/unified_main.py
+    framework: huggingface
+    huggingface_version: 4.9.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    python_version: 3.9.21
+    start_time: 1746007117.816701
+    t:
+      1:
+      - 1
+      - 5
+      - 9
+      - 11
+      - 41
+      - 49
+      - 53
+      - 55
+      - 80
+      2:
+      - 1
+      - 5
+      - 9
+      - 11
+      - 41
+      - 49
+      - 53
+      - 55
+      - 80
+      3:
+      - 1
+      - 7
+      - 13
+      - 16
+      - 23
+      4: 3.9.21
+      5: 0.13.5
+      6: 4.9.1
+      8:
+      - 5
+accumulate_grad_batches:
+  desc: null
+  value: 1
+attn_dropout:
+  desc: null
+  value: 0.1
+attn_type:
+  desc: null
+  value: all_modality_causal_cuda
+batch_size:
+  desc: null
+  value: 1
+causal:
+  desc: null
+  value: true
+causal_clm:
+  desc: null
+  value: conditioned_causal
+causal_trans:
+  desc: null
+  value: conditioned_causal
+ckpt_dir:
+  desc: null
+  value: None
+codebook_indices_path:
+  desc: null
+  value: mimiccxr_vqgan/mimiccxr_vqgan1024_res512_codebook_indices.pickle
+depth:
+  desc: null
+  value: 12
+dim:
+  desc: null
+  value: 768
+dim_head:
+  desc: null
+  value: 64
+emb_dropout:
+  desc: null
+  value: 0.1
+eos_token_idx:
+  desc: null
+  value: 2
+epochs:
+  desc: null
+  value: 200
+feature_redraw_interval:
+  desc: null
+  value: 1000
+ff_chunks:
+  desc: null
+  value: 1
+ff_dropout:
+  desc: null
+  value: 0.1
+ff_glu:
+  desc: null
+  value: false
+fp16:
+  desc: null
+  value: true
+generalized_attention:
+  desc: null
+  value: true
+gradient_clip_val:
+  desc: null
+  value: 0
+heads:
+  desc: null
+  value: 12
+img_fmap_size:
+  desc: null
+  value: 32
+img_len:
+  desc: null
+  value: 1026
+img_root_dir:
+  desc: null
+  value: path/to/mimic-cxr-jpg
+img_vocab_size:
+  desc: null
+  value: 1024
+kernel_fn:
+  desc: null
+  value: null
+layer_norm_eps:
+  desc: null
+  value: 1.0e-12
+local_attn_heads:
+  desc: null
+  value: 0
+local_window_size:
+  desc: null
+  value: 256
+lr:
+  desc: null
+  value: 4.5e-06
+max_img_len:
+  desc: null
+  value: 1026
+max_img_num:
+  desc: null
+  value: 1
+max_seq_len:
+  desc: null
+  value: 1282
+max_text_len:
+  desc: null
+  value: 256
+merge_file:
+  desc: null
+  value: BBPE_tokenizer/merges.txt
+n_epochs:
+  desc: null
+  value: 200
+n_gpus:
+  desc: null
+  value: 1
+nb_features:
+  desc: null
+  value: 64
+num_img_tokens:
+  desc: null
+  value: 1033
+num_sanity_val_steps:
+  desc: null
+  value: 0
+num_tokens:
+  desc: null
+  value: 14526
+num_workers:
+  desc: null
+  value: 8
+pad_token_idx:
+  desc: null
+  value: 0
+reload_ckpt_dir:
+  desc: null
+  value: null
+reversible:
+  desc: null
+  value: false
+rotary_position_emb:
+  desc: null
+  value: false
+save_dir:
+  desc: null
+  value: output
+save_top_k:
+  desc: null
+  value: 1
+seed:
+  desc: null
+  value: 42
+sharded_ddp:
+  desc: null
+  value: false
+sos_token_idx:
+  desc: null
+  value: 1
+target_count:
+  desc: null
+  value: 3
+target_view:
+  desc: null
+  value:
+  - AP
+  - PA
+  - LATERAL
+  - LL
+test:
+  desc: null
+  value: false
+test_meta_file:
+  desc: null
+  value: metadata/mimiccxr_test_sub_final.csv
+text_root_dir:
+  desc: null
+  value: path/to/mimic-cxr-database
+tie_embed:
+  desc: null
+  value: false
+train_meta_file:
+  desc: null
+  value: metadata/mimiccxr_train_sub_final.csv
+transformer:
+  desc: null
+  value: true
+under_sample:
+  desc: null
+  value: fixed_all_unified
+use_rezero:
+  desc: null
+  value: false
+use_scalenorm:
+  desc: null
+  value: false
+val_meta_file:
+  desc: null
+  value: metadata/mimiccxr_validate_sub_final.csv
+vocab_file:
+  desc: null
+  value: BBPE_tokenizer/vocab.json
+vqgan:
+  desc: null
+  value: 512
+vqgan_config_path:
+  desc: null
+  value: mimiccxr_vqgan/2021-12-17T08-58-54-project.yaml
+vqgan_model_path:
+  desc: null
+  value: mimiccxr_vqgan/last.ckpt
+wandb_name:
+  desc: null
+  value: _18h53m31s
+weight_decay:
+  desc: null
+  value: 1.0e-06

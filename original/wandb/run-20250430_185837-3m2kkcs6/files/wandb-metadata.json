@@ -1,0 +1,132 @@
+{
+    "os": "Linux-5.15.0-138-generic-x86_64-with-glibc2.31",
+    "python": "3.9.21",
+    "heartbeatAt": "2025-04-30T09:58:39.149425",
+    "startedAt": "2025-04-30T09:58:37.805406",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--batch_size",
+        "1",
+        "--fp16",
+        "True",
+        "--max_img_num",
+        "1"
+    ],
+    "state": "running",
+    "program": "/home/ines/Documents/iNES-hackathon/UniXGen/unified_main.py",
+    "codePath": "unified_main.py",
+    "git": {
+        "remote": null,
+        "commit": "957e6350a504a82c04b7eb8356f316a4f4046def"
+    },
+    "email": "yoonsh1004z@gachon.ac.kr",
+    "root": "/home/ines/Documents/iNES-hackathon/UniXGen",
+    "host": "ines",
+    "username": "ines",
+    "executable": "/home/ines/anaconda3/envs/unixgen/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3532.1776875,
+        "min": 800.0,
+        "max": 4575.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 1014.843,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "total": 163.19754028320312,
+        "used": 70.16951751708984
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Ti",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 31.15264129638672
+    }
+}

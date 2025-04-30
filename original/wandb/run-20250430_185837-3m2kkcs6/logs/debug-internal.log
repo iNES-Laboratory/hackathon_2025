@@ -1,0 +1,191 @@
+2025-04-30 18:58:37,819 INFO    StreamThr :27071 [internal.py:wandb_internal():88] W&B internal server running at pid: 27071, started at: 2025-04-30 18:58:37.816971
+2025-04-30 18:58:37,823 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: status
+2025-04-30 18:58:37,825 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: status
+2025-04-30 18:58:37,830 INFO    WriterThread:27071 [datastore.py:open_for_write():75] open: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/run-3m2kkcs6.wandb
+2025-04-30 18:58:37,830 DEBUG   SenderThread:27071 [sender.py:send():303] send: header
+2025-04-30 18:58:37,866 DEBUG   SenderThread:27071 [sender.py:send():303] send: run
+2025-04-30 18:58:37,875 INFO    SenderThread:27071 [sender.py:_maybe_setup_resume():593] checking resume status for None/UniXGen/3m2kkcs6
+2025-04-30 18:58:39,030 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: check_version
+2025-04-30 18:58:39,032 INFO    SenderThread:27071 [dir_watcher.py:__init__():216] watching files in: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files
+2025-04-30 18:58:39,032 INFO    SenderThread:27071 [sender.py:_start_run_threads():928] run started: 3m2kkcs6 with start time 1746007117.816701
+2025-04-30 18:58:39,033 DEBUG   SenderThread:27071 [sender.py:send():303] send: summary
+2025-04-30 18:58:39,033 INFO    SenderThread:27071 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-04-30 18:58:39,033 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: check_version
+2025-04-30 18:58:39,102 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: run_start
+2025-04-30 18:58:39,139 DEBUG   HandlerThread:27071 [system_info.py:__init__():31] System info init
+2025-04-30 18:58:39,139 DEBUG   HandlerThread:27071 [system_info.py:__init__():46] System info init done
+2025-04-30 18:58:39,139 INFO    HandlerThread:27071 [system_monitor.py:start():150] Starting system monitor
+2025-04-30 18:58:39,140 INFO    SystemMonitor:27071 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2025-04-30 18:58:39,140 INFO    HandlerThread:27071 [system_monitor.py:probe():168] Collecting system info
+2025-04-30 18:58:39,141 INFO    SystemMonitor:27071 [interfaces.py:start():168] Started cpu
+2025-04-30 18:58:39,142 INFO    SystemMonitor:27071 [interfaces.py:start():168] Started disk
+2025-04-30 18:58:39,143 INFO    SystemMonitor:27071 [interfaces.py:start():168] Started gpu
+2025-04-30 18:58:39,143 INFO    SystemMonitor:27071 [interfaces.py:start():168] Started memory
+2025-04-30 18:58:39,144 INFO    SystemMonitor:27071 [interfaces.py:start():168] Started network
+2025-04-30 18:58:39,149 DEBUG   HandlerThread:27071 [system_info.py:probe():195] Probing system
+2025-04-30 18:58:39,149 DEBUG   HandlerThread:27071 [system_info.py:_probe_git():180] Probing git
+2025-04-30 18:58:39,156 DEBUG   HandlerThread:27071 [system_info.py:_probe_git():188] Probing git done
+2025-04-30 18:58:39,156 DEBUG   HandlerThread:27071 [system_info.py:probe():241] Probing system done
+2025-04-30 18:58:39,156 DEBUG   HandlerThread:27071 [system_monitor.py:probe():177] {'os': 'Linux-5.15.0-138-generic-x86_64-with-glibc2.31', 'python': '3.9.21', 'heartbeatAt': '2025-04-30T09:58:39.149425', 'startedAt': '2025-04-30T09:58:37.805406', 'docker': None, 'cuda': None, 'args': ('--batch_size', '1', '--fp16', 'True', '--max_img_num', '1'), 'state': 'running', 'program': '/home/ines/Documents/iNES-hackathon/UniXGen/unified_main.py', 'codePath': 'unified_main.py', 'git': {'remote': None, 'commit': '957e6350a504a82c04b7eb8356f316a4f4046def'}, 'email': 'yoonsh1004z@gachon.ac.kr', 'root': '/home/ines/Documents/iNES-hackathon/UniXGen', 'host': 'ines', 'username': 'ines', 'executable': '/home/ines/anaconda3/envs/unixgen/bin/python', 'cpu_count': 10, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3532.1776875, 'min': 800.0, 'max': 4575.0}, 'cpu_freq_per_core': [{'current': 3700.0, 'min': 800.0, 'max': 4900.0}, {'current': 3700.0, 'min': 800.0, 'max': 4900.0}, {'current': 1014.843, 'min': 800.0, 'max': 4900.0}, {'current': 3700.0, 'min': 800.0, 'max': 4900.0}, {'current': 3700.0, 'min': 800.0, 'max': 4900.0}, {'current': 3700.0, 'min': 800.0, 'max': 4900.0}, {'current': 3700.0, 'min': 800.0, 'max': 4900.0}, {'current': 3700.0, 'min': 800.0, 'max': 4900.0}, {'current': 3700.0, 'min': 800.0, 'max': 4900.0}, {'current': 3700.0, 'min': 800.0, 'max': 4900.0}, {'current': 3700.0, 'min': 800.0, 'max': 4900.0}, {'current': 3700.0, 'min': 800.0, 'max': 4900.0}, {'current': 3700.0, 'min': 800.0, 'max': 3600.0}, {'current': 3700.0, 'min': 800.0, 'max': 3600.0}, {'current': 3700.0, 'min': 800.0, 'max': 3600.0}, {'current': 3700.0, 'min': 800.0, 'max': 3600.0}], 'disk': {'total': 163.19754028320312, 'used': 70.16951751708984}, 'gpu': 'NVIDIA GeForce RTX 3070 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Ti', 'memory_total': 8589934592}], 'memory': {'total': 31.15264129638672}}
+2025-04-30 18:58:39,156 INFO    HandlerThread:27071 [system_monitor.py:probe():178] Finished collecting system info
+2025-04-30 18:58:39,156 INFO    HandlerThread:27071 [system_monitor.py:probe():181] Publishing system info
+2025-04-30 18:58:39,156 DEBUG   HandlerThread:27071 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2025-04-30 18:58:39,156 DEBUG   HandlerThread:27071 [system_info.py:_save_pip():67] Saving pip packages done
+2025-04-30 18:58:39,156 DEBUG   HandlerThread:27071 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2025-04-30 18:58:40,025 DEBUG   HandlerThread:27071 [system_info.py:_save_conda():86] Saving conda packages done
+2025-04-30 18:58:40,025 DEBUG   HandlerThread:27071 [system_info.py:_save_code():89] Saving code
+2025-04-30 18:58:40,028 DEBUG   HandlerThread:27071 [system_info.py:_save_code():110] Saving code done
+2025-04-30 18:58:40,028 DEBUG   HandlerThread:27071 [system_info.py:_save_patches():127] Saving git patches
+2025-04-30 18:58:40,034 INFO    Thread-13 :27071 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/conda-environment.yaml
+2025-04-30 18:58:40,034 INFO    Thread-13 :27071 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/requirements.txt
+2025-04-30 18:58:40,034 INFO    Thread-13 :27071 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/code/unified_main.py
+2025-04-30 18:58:40,034 INFO    Thread-13 :27071 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/wandb-summary.json
+2025-04-30 18:58:40,034 INFO    Thread-13 :27071 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/code
+2025-04-30 18:58:40,039 DEBUG   HandlerThread:27071 [system_info.py:_save_patches():169] Saving git patches done
+2025-04-30 18:58:40,039 INFO    HandlerThread:27071 [system_monitor.py:probe():183] Finished publishing system info
+2025-04-30 18:58:40,056 DEBUG   SenderThread:27071 [sender.py:send():303] send: files
+2025-04-30 18:58:40,056 INFO    SenderThread:27071 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2025-04-30 18:58:40,056 INFO    SenderThread:27071 [sender.py:_save_file():1171] saving file code/unified_main.py with policy now
+2025-04-30 18:58:40,057 INFO    SenderThread:27071 [sender.py:_save_file():1171] saving file diff.patch with policy now
+2025-04-30 18:58:40,061 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: stop_status
+2025-04-30 18:58:40,061 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: stop_status
+2025-04-30 18:58:40,443 INFO    Thread-17 :27071 [upload_job.py:push():123] Skipped uploading /tmp/tmpd54exlf6wandb/1ret7jbe-code/unified_main.py
+2025-04-30 18:58:40,456 DEBUG   SenderThread:27071 [sender.py:send():303] send: telemetry
+2025-04-30 18:58:40,456 DEBUG   SenderThread:27071 [sender.py:send():303] send: metric
+2025-04-30 18:58:40,456 DEBUG   SenderThread:27071 [sender.py:send():303] send: telemetry
+2025-04-30 18:58:40,456 DEBUG   SenderThread:27071 [sender.py:send():303] send: metric
+2025-04-30 18:58:40,456 WARNING SenderThread:27071 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2025-04-30 18:58:40,456 DEBUG   SenderThread:27071 [sender.py:send():303] send: telemetry
+2025-04-30 18:58:40,841 INFO    Thread-16 :27071 [upload_job.py:push():143] Uploaded file /tmp/tmpd54exlf6wandb/210l8p28-wandb-metadata.json
+2025-04-30 18:58:40,844 INFO    Thread-18 :27071 [upload_job.py:push():143] Uploaded file /tmp/tmpd54exlf6wandb/2cp0h7j7-diff.patch
+2025-04-30 18:58:41,034 INFO    Thread-13 :27071 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/wandb-metadata.json
+2025-04-30 18:58:41,034 INFO    Thread-13 :27071 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/output.log
+2025-04-30 18:58:41,034 INFO    Thread-13 :27071 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/diff.patch
+2025-04-30 18:58:42,127 DEBUG   SenderThread:27071 [sender.py:send():303] send: metric
+2025-04-30 18:58:42,127 DEBUG   SenderThread:27071 [sender.py:send():303] send: metric
+2025-04-30 18:58:42,127 WARNING SenderThread:27071 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2025-04-30 18:58:42,129 DEBUG   SenderThread:27071 [sender.py:send():303] send: config
+2025-04-30 18:58:42,385 DEBUG   SenderThread:27071 [sender.py:send():303] send: exit
+2025-04-30 18:58:42,385 INFO    SenderThread:27071 [sender.py:send_exit():442] handling exit code: 1
+2025-04-30 18:58:42,385 INFO    SenderThread:27071 [sender.py:send_exit():444] handling runtime: 3
+2025-04-30 18:58:42,386 INFO    SenderThread:27071 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-04-30 18:58:42,386 INFO    SenderThread:27071 [sender.py:send_exit():450] send defer
+2025-04-30 18:58:42,386 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:42,386 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 0
+2025-04-30 18:58:42,386 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:42,386 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 0
+2025-04-30 18:58:42,386 INFO    SenderThread:27071 [sender.py:transition_state():463] send defer: 1
+2025-04-30 18:58:42,386 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:42,386 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 1
+2025-04-30 18:58:42,386 INFO    HandlerThread:27071 [system_monitor.py:finish():160] Stopping system monitor
+2025-04-30 18:58:42,386 DEBUG   SystemMonitor:27071 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2025-04-30 18:58:42,387 DEBUG   SystemMonitor:27071 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2025-04-30 18:58:42,387 DEBUG   SystemMonitor:27071 [system_monitor.py:_start():141] Publishing last batch of metrics
+2025-04-30 18:58:42,387 INFO    HandlerThread:27071 [interfaces.py:finish():173] Joined cpu
+2025-04-30 18:58:42,387 INFO    HandlerThread:27071 [interfaces.py:finish():173] Joined disk
+2025-04-30 18:58:42,412 INFO    HandlerThread:27071 [interfaces.py:finish():173] Joined gpu
+2025-04-30 18:58:42,412 INFO    HandlerThread:27071 [interfaces.py:finish():173] Joined memory
+2025-04-30 18:58:42,412 INFO    HandlerThread:27071 [interfaces.py:finish():173] Joined network
+2025-04-30 18:58:42,413 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:42,413 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 1
+2025-04-30 18:58:42,413 INFO    SenderThread:27071 [sender.py:transition_state():463] send defer: 2
+2025-04-30 18:58:42,413 DEBUG   SenderThread:27071 [sender.py:send():303] send: stats
+2025-04-30 18:58:42,413 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:42,413 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 2
+2025-04-30 18:58:42,413 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:42,413 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 2
+2025-04-30 18:58:42,413 INFO    SenderThread:27071 [sender.py:transition_state():463] send defer: 3
+2025-04-30 18:58:42,413 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:42,413 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 3
+2025-04-30 18:58:42,413 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:42,413 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 3
+2025-04-30 18:58:42,413 INFO    SenderThread:27071 [sender.py:transition_state():463] send defer: 4
+2025-04-30 18:58:42,413 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:42,413 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 4
+2025-04-30 18:58:42,413 DEBUG   SenderThread:27071 [sender.py:send():303] send: summary
+2025-04-30 18:58:42,413 INFO    SenderThread:27071 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-04-30 18:58:42,414 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:42,414 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 4
+2025-04-30 18:58:42,414 INFO    SenderThread:27071 [sender.py:transition_state():463] send defer: 5
+2025-04-30 18:58:42,414 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:42,414 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 5
+2025-04-30 18:58:42,414 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:42,414 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 5
+2025-04-30 18:58:42,711 INFO    SenderThread:27071 [sender.py:transition_state():463] send defer: 6
+2025-04-30 18:58:42,711 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:42,711 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 6
+2025-04-30 18:58:42,711 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:42,711 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 6
+2025-04-30 18:58:43,034 INFO    Thread-13 :27071 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/output.log
+2025-04-30 18:58:43,034 INFO    Thread-13 :27071 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/config.yaml
+2025-04-30 18:58:43,034 INFO    Thread-13 :27071 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/wandb-summary.json
+2025-04-30 18:58:43,385 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: poll_exit
+2025-04-30 18:58:45,035 INFO    Thread-13 :27071 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/output.log
+2025-04-30 18:58:46,142 INFO    SenderThread:27071 [sender.py:transition_state():463] send defer: 7
+2025-04-30 18:58:46,143 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: poll_exit
+2025-04-30 18:58:46,145 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:46,145 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 7
+2025-04-30 18:58:46,145 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:46,145 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 7
+2025-04-30 18:58:46,145 INFO    SenderThread:27071 [dir_watcher.py:finish():362] shutting down directory watcher
+2025-04-30 18:58:47,037 INFO    SenderThread:27071 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/output.log
+2025-04-30 18:58:47,038 INFO    SenderThread:27071 [dir_watcher.py:finish():392] scan: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files
+2025-04-30 18:58:47,038 INFO    SenderThread:27071 [dir_watcher.py:finish():406] scan save: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/conda-environment.yaml conda-environment.yaml
+2025-04-30 18:58:47,038 INFO    SenderThread:27071 [dir_watcher.py:finish():406] scan save: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/output.log output.log
+2025-04-30 18:58:47,039 INFO    SenderThread:27071 [dir_watcher.py:finish():406] scan save: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/wandb-metadata.json wandb-metadata.json
+2025-04-30 18:58:47,039 INFO    SenderThread:27071 [dir_watcher.py:finish():406] scan save: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/requirements.txt requirements.txt
+2025-04-30 18:58:47,039 INFO    SenderThread:27071 [dir_watcher.py:finish():406] scan save: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/config.yaml config.yaml
+2025-04-30 18:58:47,039 INFO    SenderThread:27071 [dir_watcher.py:finish():406] scan save: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/diff.patch diff.patch
+2025-04-30 18:58:47,039 INFO    SenderThread:27071 [dir_watcher.py:finish():406] scan save: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/wandb-summary.json wandb-summary.json
+2025-04-30 18:58:47,039 INFO    SenderThread:27071 [dir_watcher.py:finish():406] scan save: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/code/unified_main.py code/unified_main.py
+2025-04-30 18:58:47,040 INFO    SenderThread:27071 [sender.py:transition_state():463] send defer: 8
+2025-04-30 18:58:47,041 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:47,046 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 8
+2025-04-30 18:58:47,046 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:47,047 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 8
+2025-04-30 18:58:47,047 INFO    SenderThread:27071 [file_pusher.py:finish():168] shutting down file pusher
+2025-04-30 18:58:47,692 INFO    Thread-19 :27071 [upload_job.py:push():143] Uploaded file /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/conda-environment.yaml
+2025-04-30 18:58:47,790 INFO    Thread-22 :27071 [upload_job.py:push():143] Uploaded file /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/config.yaml
+2025-04-30 18:58:47,815 INFO    Thread-21 :27071 [upload_job.py:push():143] Uploaded file /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/requirements.txt
+2025-04-30 18:58:47,896 INFO    Thread-23 :27071 [upload_job.py:push():143] Uploaded file /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/wandb-summary.json
+2025-04-30 18:58:47,915 INFO    Thread-20 :27071 [upload_job.py:push():143] Uploaded file /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/files/output.log
+2025-04-30 18:58:48,117 INFO    Thread-12 :27071 [sender.py:transition_state():463] send defer: 9
+2025-04-30 18:58:48,118 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:48,118 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 9
+2025-04-30 18:58:48,118 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:48,119 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 9
+2025-04-30 18:58:48,119 INFO    SenderThread:27071 [file_pusher.py:join():173] waiting for file pusher
+2025-04-30 18:58:48,119 INFO    SenderThread:27071 [sender.py:transition_state():463] send defer: 10
+2025-04-30 18:58:48,119 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:48,120 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 10
+2025-04-30 18:58:48,120 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:48,120 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 10
+2025-04-30 18:58:48,387 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: keepalive
+2025-04-30 18:58:48,537 INFO    SenderThread:27071 [sender.py:transition_state():463] send defer: 11
+2025-04-30 18:58:48,538 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:48,539 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 11
+2025-04-30 18:58:48,539 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:48,539 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 11
+2025-04-30 18:58:48,539 INFO    SenderThread:27071 [sender.py:transition_state():463] send defer: 12
+2025-04-30 18:58:48,540 DEBUG   SenderThread:27071 [sender.py:send():303] send: final
+2025-04-30 18:58:48,541 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: defer
+2025-04-30 18:58:48,541 INFO    HandlerThread:27071 [handler.py:handle_request_defer():162] handle defer: 12
+2025-04-30 18:58:48,542 DEBUG   SenderThread:27071 [sender.py:send():303] send: footer
+2025-04-30 18:58:48,542 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: defer
+2025-04-30 18:58:48,542 INFO    SenderThread:27071 [sender.py:send_request_defer():459] handle sender defer: 12
+2025-04-30 18:58:48,544 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: poll_exit
+2025-04-30 18:58:48,545 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: poll_exit
+2025-04-30 18:58:48,547 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: server_info
+2025-04-30 18:58:48,547 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: get_summary
+2025-04-30 18:58:48,547 DEBUG   SenderThread:27071 [sender.py:send_request():317] send_request: server_info
+2025-04-30 18:58:48,552 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: sampled_history
+2025-04-30 18:58:49,207 INFO    MainThread:27071 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2025-04-30 18:58:49,207 INFO    MainThread:27071 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2025-04-30 18:58:49,207 INFO    MainThread:27071 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2025-04-30 18:58:49,208 DEBUG   HandlerThread:27071 [handler.py:handle_request():139] handle_request: shutdown
+2025-04-30 18:58:49,209 INFO    HandlerThread:27071 [handler.py:finish():814] shutting down handler
+2025-04-30 18:58:49,543 INFO    WriterThread:27071 [datastore.py:close():279] close: /home/ines/Documents/iNES-hackathon/UniXGen/wandb/run-20250430_185837-3m2kkcs6/run-3m2kkcs6.wandb
+2025-04-30 18:58:50,206 INFO    SenderThread:27071 [sender.py:finish():1331] shutting down sender
+2025-04-30 18:58:50,206 INFO    SenderThread:27071 [file_pusher.py:finish():168] shutting down file pusher
+2025-04-30 18:58:50,207 INFO    SenderThread:27071 [file_pusher.py:join():173] waiting for file pusher
+2025-04-30 18:58:50,213 INFO    MainThread:27071 [internal.py:handle_exit():78] Internal process exited
